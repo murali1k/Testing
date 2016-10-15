@@ -7,7 +7,7 @@
 	<version>0.1-SNAPSHOT</version>
 	<name>GitHub Maven Plugin Example</name>
 	<description>Project to demonstrate GitHub Maven plugins</description>
-	<url>https://github.com/kevinsawicki/github-maven-example</url>
+	<url>http://localhost:8080/nexus-2.13.0-01/content/repositories/snapshots/</url>
 
 	<issueManagement>
 		<url>https://github.com/kevinsawicki/github-maven-example/issues</url>
