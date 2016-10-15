@@ -38,18 +38,21 @@
 		</developer>
 	</developers>
 	<distributionManagement>
-      <releases>
-            <id>deployment</id>
-            <name>Internal Releases</name>
-            <url>http://127.0.0.1:8080/nexus-2.13.0-01/content/repositories/releases/</url>
-        </releases>
-        <snapshots>
-            <id>deployment</id>
-            <name>Internal Snapshot Releases</name>
-            <url>http://127.0.0.1:8080/nexus-2.13.0-01/content/repositories/snapshots/</url>
-        </snapshots>  
-    </distributionManagement>
+    <repository>
+        <id>...</id>
+        <name>...</name>
+        <url>...</url>
+    </repository>
+</distributionManagement> 
 
+<repositories>
+    <repository>
+        <id>...</id>
+        <name>...</name>
+        <layout>default</layout>
+        <url>...</url>
+    </repository>
+</repositories>
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 	</properties>
