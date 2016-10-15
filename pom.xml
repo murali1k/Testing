@@ -29,7 +29,15 @@
 	</scm>
 
 	<developers>
-		<distributionManagement>
+		
+		<developer>
+			<email>kevinsawicki@gmail.com</email>
+			<name>Kevin Sawicki</name>
+			<url>https://github.com/kevinsawicki</url>
+			<id>kevinsawicki</id>
+		</developer>
+	</developers>
+	<distributionManagement>
       <repository>
             <id>deployment</id>
             <name>Internal Releases</name>
@@ -41,13 +49,6 @@
             <url>http://localhost:8080/nexus-2.13.0-01/content/repositories/snapshots/</url>
         </snapshotRepository>  
     </distributionManagement>
-		<developer>
-			<email>kevinsawicki@gmail.com</email>
-			<name>Kevin Sawicki</name>
-			<url>https://github.com/kevinsawicki</url>
-			<id>kevinsawicki</id>
-		</developer>
-	</developers>
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
